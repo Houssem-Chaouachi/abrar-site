@@ -1,0 +1,21 @@
+/* .background {
+    background-color: rgba(36, 139, 79, .9);
+    background:url('../../assets/assets/img/portfolio/bts-comptabilite-finance-1920x1080.jpg');
+    background-attachment: fixed;
+
+}; */
+.background {
+    background:url('../../assets/assets/img/portfolio/bts-comptabilite-finance-1920x1080.jpg');
+    background-attachment: fixed;
+    background:cover;
+
+}
+
+.layer {
+    background-color: rgba(17, 156, 128, 0.5);
+    position: relative;
+    top: 0px;
+    bottom:0px;
+    left: 0px;
+    right: 0px;
+}
