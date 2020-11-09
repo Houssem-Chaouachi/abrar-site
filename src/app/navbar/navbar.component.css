@@ -1,0 +1,11 @@
+.rounded{
+cursor: pointer;
+
+}
+.rounded:hover {
+background-color:#1abc9c;
+border-radius: 8px;
+color: #fff!important;
+
+
+}
