@@ -19,10 +19,10 @@ this.contactForm = this.formBuilder.group({
   tel: ['', [Validators.required && Validators.minLength(8)]],
   msg: ['', [Validators.required]]
 });
-  }
-get form() {
-  return this.contactForm.controls;
 }
+  get form() {
+    return this.contactForm.controls;
+  }
 
 onsubmit(): void {
   this.submitted = true;
