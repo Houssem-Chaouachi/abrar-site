@@ -8,12 +8,9 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { AfcComponent } from './afc/afc.component';
 
 const routes: Routes = [
-  { path: 'page-top' , component: NavbarComponent},
-  { path: 'companies', component: CompaniesComponent},
-  { path: 'about-us', component: AboutUsComponent},
-  { path: 'contact-us', component: ContactUsComponent},
+
   { path: 'AFC', component: AfcComponent},
-  { path: 'footer', component: FooterComponent},
+
 ];
 
 @NgModule({

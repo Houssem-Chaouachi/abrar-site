@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-afc',
@@ -29,6 +30,18 @@ onsubmit(): void {
   if (this.contactForm.invalid){
     return;
   }
+}
+toTop(){
+  document.getElementById('page-topAfc').scrollIntoView({behavior: 'smooth'});
+}
+toCompetence(){
+  document.getElementById('competenceAfc').scrollIntoView({ behavior: 'smooth'});
+}
+toExpertise(){
+  document.getElementById('expertiseAfc').scrollIntoView({block: 'center' , behavior: 'smooth'});
+}
+toContactAfc(){
+  document.getElementById('contactAfc').scrollIntoView({block: 'center' , behavior: 'smooth'});
 }
   }
 

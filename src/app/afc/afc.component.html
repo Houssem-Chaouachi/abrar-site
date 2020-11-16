@@ -1,19 +1,21 @@
-<body id="page-top">
-    <nav class="navbar navbar-expand-lg bg-secondary fixed-top activate.bs.scrollspy text-white">
-        <div class="container"><img class="logo-style" src="../../assets/assets/img/portfolio/AFC.png" alt="">
+<body id="page-topAfc">
+    <nav class="navbar navbar-expand-lg bg-secondary fixed-top activate.bs.scrollspy text-white rounded">
+        <div class="container"><img class="logo-style" routerLinkActive="active" (click)='toTop()' src="../../assets/assets/img/portfolio/AFC.png" alt="">
             <button class="navbar-toggler navbar-toggler-right font-weight-bold bg-primary text-white rounded"
                 type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
                 aria-expanded="false" aria-label="Toggle navigation">Menu <i class="fas fa-bars"></i></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger">A
-                            propos de Nous</a>
+                    <li class="nav-item mx-0 mx-lg-1">
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                         routerLinkActive="active" (click)="toCompetence()">
+                        Nos Domaines de compétence </a>
                     </li>
                     <li class="nav-item mx-0 mx-lg-1"><a
-                            class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger">Nos domaines d'expertise</a>
+                            class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" routerLinkActive="active" (click)="toExpertise()" >Notre expertise</a>
                     </li>
                     <li class="nav-item mx-0 mx-lg-1 "><a
-                            class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger">Contact Us</a>
+                            class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" routerLinkActive="active" (click)="toContactAfc()" >Contactez-nous</a>
                     </li>
                 </ul>
             </div>
@@ -21,7 +23,7 @@
     </nav>
     <section class=" bg-primary background text-white">
         <div class="layer page-section">
-            <div class="container layer">
+            <div class="container ">
                 <!-- About Section Heading-->
                 <div class="text-center">
                     <h2 class="page-section-heading d-inline-block text-white">Abrar Finance Consulting</h2>
@@ -33,26 +35,26 @@
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- About Section Content-->
-                <div class="row">
-                    <div class="col-lg-4 ml-auto">
-                        <p class="pre-wrap lead">ABRAR BUSINESS CONSULTING est un cabinet de formation et de conseil en
-                            finance islamique .​
+                <div class="text-center pb-4">
+                    <div class=" ml-auto">
+                        <p class="pre-wrap lead">Cabinet de formation et de conseil en
+                            finance.​
 
                         </p>
                     </div>
-                    <div class="col-lg-4 mr-auto">
+                    <!-- <div class="col-lg-4 mr-auto">
                         <p class="pre-wrap lead"> Notre activité : notre cabinet a pour vocation principale
                             d’accompagner les dirigeants
                             des entreprises dans la réalisation des études stratégiques et des plans d’affaires,
                             dans l’analyse financière et dans la recherche de financement et la levée de fonds ,
                             et offre également des programmes de formation dans les différents domaines de la finance
                             islamique.</p>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
     </section>
-    <section class="page-section  mb-0" id="services">
+    <section class="page-section  mb-0" id="competenceAfc">
         <div class="item" data-aos="fade-up">
             <div class="container container-style">
                 <div class="text-center">
@@ -69,7 +71,7 @@
                             <h4 class="my-3">Consulting</h4>
                             <p>Accompagnement des dirigeants d'entreprises dans la réalisation d'études
                                 stratégiques et de plans d'affaires, dans l'analyse financière et dans la
-                                recherche de financement et la levée de fonds
+                                recherche de financement et la levée de fonds.
                             </p>
                         </div>
                     </div>
@@ -86,12 +88,11 @@
                             </p>
                         </div>
                     </div>
-                 
                 </div>
             </div>
         </div>
     </section>
-    <section class=" background-img  text-white mb-0" id="about-us">
+    <section class=" background-expertise  text-white mb-0" id="expertiseAfc">
         <div class=" page-section section-expertise layer">
             <div class="container ">
                 <!-- About Section Heading-->
@@ -110,71 +111,80 @@
     </section>
     <div class=" flex-container">
         <div class="element-style flex-item" data-aos="fade-up" data-aos-duration="3000">
-            <h4>Extension et développement des projets</h4>
-            <p>La réalisation d’un Plan de Mise à Niveau </p>
-            <p>Demande de levée de fond </p>
+            <h5 class="mt-4">Extension et développement des projets</h5>
         </div>
-        <div class="element-style flex-item" data-aos="fade-up" data-aos-duration="3000">
-            <h4>Réstructuration des entreprises</h4>
-            <p>Accompagnement des entreprises en difficulté</p>
+        <div class="element-style flex-item " data-aos="fade-up" data-aos-duration="3000">
+            <h5 class="mt-4">Finance islamique</h5>
         </div>
-        <div class="element-style flex-item" data-aos="fade-up" data-aos-duration="3000">
-            <h4>Accompagnement des nouveaux promoteurs</h4>
-            <p>Accompagnement des nouveaux promoteurs dans la réalisation de leurs projets</p>
+        <div class="element-style flex-item " data-aos="fade-up" data-aos-duration="3000">
+            <h5 class="mt-4">Réstructuration des entreprises</h5>
+        </div>
+        <div class="element-style flex-item " data-aos="fade-up" data-aos-duration="3000">
+            <h5 class="mt-4">Accompagnement des nouveaux promoteurs</h5>
         </div>
     </div>
-    <section class="container mt-5 ">
-        <div class="text-center">
-            <h2 class="section-heading text-uppercase">Contactez-nous</h2>
-            <p>Nous allons vous répondre dans les plus bréfs délais </p>
-            <div class="separator-line"></div>
-        </div>
-        <form [formGroup]="contactForm" (ngSubmit)="onsubmit()">
-            <div class="form-group">
-                <div class="row">
-                    <div class="col-md-4 mb-2">
-                        <input type="text" formControlName="nom" placeholder="Nom*" class="form-control"
-                            [ngClass]="{'is-invalid':submitted && form.nom.errors} ">
-                        <div *ngIf="submitted && form.nom.errors" class="invalid-feedback">
-                            Ce champ est requis
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-2">
-                        <input type="email" formControlName="email" placeholder="Email*" class="form-control"
-                            [ngClass]="{'is-invalid':submitted && form.email} ">
-                        <div *ngIf="submitted && form.email.errors" class="invalid-feedback">
-                            Ce champ est requis
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-2">
-                        <input type="tel" formControlName="tel" placeholder="Téléphone" class="form-control">
-                    </div>
+    <section class="container mt-5 " id="contactAfc">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Contactez-nous</h2>
+                    <p>Nous allons vous répondre dans les plus bréfs délais </p>
+                    <div class="separator-line"></div>
                 </div>
+                <form [formGroup]="contactForm" (ngSubmit)="onsubmit()">
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-md-4 mb-2">
+                                <input type="text" formControlName="nom" placeholder="Nom*" class="form-control"
+                                    [ngClass]="{'is-invalid':submitted && form.nom.errors} ">
+                                <div *ngIf="submitted && form.nom.errors" class="invalid-feedback">
+                                    Ce champ est requis
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-2">
+                                <input type="email" formControlName="email" placeholder="Email*" class="form-control"
+                                    [ngClass]="{'is-invalid':submitted && form.email} ">
+                                <div *ngIf="submitted && form.email.errors" class="invalid-feedback">
+                                    Ce champ est requis
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-2">
+                                <input type="tel" formControlName="tel" placeholder="Téléphone" class="form-control">
+                            </div>
+                        </div>
 
-                <div class="row">
-                    <div class="col-md-12 mb-2">
-                        <textarea name="" formControlName="msg" placeholder="Votre message" class="form-control"
-                            [ngClass]="{'is-invalid': submitted && form.msg} "></textarea>
-                        <div *ngIf="submitted && form.msg.errors" class="invalid-feedback">
-                            Ce champ est requis
+                        <div class="row">
+                            <div class="col-md-12 mb-2">
+                                <textarea name="message" formControlName="msg" placeholder="Votre message"
+                                    class="form-control" [ngClass]="{'is-invalid': submitted && form.msg} "></textarea>
+                                <div *ngIf="submitted && form.msg.errors" class="invalid-feedback">
+                                    Ce champ est requis
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <button class="btn btn-secondary mt-2"> Envoyer </button>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <button class="btn btn-secondary mt-2"> Envoyer </button>
-                    </div>
-                </div>
+                </form>
             </div>
-        </form>
+            <div class="col-md-6 container mt-5">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d924.5642044578949!2d10.23876902799289!3d36.835730371599865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x12fd353f72f7ab33%3A0x6432527ff79366b8!2sAbrarcom%20%3A%20Agence%20Marketing%20Digital%20en%20Tunisie%2C%201%2C%20Place%20Tahar%20Haddad%2C%20Les%20Berges%20du%20lac%2C%20Tunis%20Les%20Berges%20du%20Lac%D8%8C%201053!3m2!1d36.8357595!2d10.2389184!5e0!3m2!1sfr!2stn!4v1605513100846!5m2!1sfr!2stn" width="400" height="300" 
+                frameborder="0" style="border:0;" allowfullscreen="" class="map-style" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+        </div>
     </section>
     <section class="page-section">
         <h2 class="text-center text-uppercase ">Nos références</h2>
-        <p class="text-center">RESTRUCTURATION D’ENTREPRISE ET LEVEE DE FONDS</p>
         <div class="separator-line"></div>
         <div class="flex-container">
             <div class="flex-item">
                 <img src="../../assets/assets/img/references/zodiac.png">
+            </div>
+            <div class="flex-item">
+                <img src="../../assets/assets/img/references/formation/al-barak-bank.jpg">
             </div>
             <div class="flex-item">
                 <img src="../../assets/assets/img/references/logo-16881-20181031-111225.png">
@@ -183,27 +193,19 @@
                 <img src="../../assets/assets/img/references/LOGO-BVM.png">
             </div>
             <div class="flex-item">
+                <img src="../../assets/assets/img/references/formation/BNA-bank.png">
+            </div>
+            <div class="flex-item">
                 <img src="../../assets/assets/img/references/nouremballage.jpg">
-            </div>
-            <div class="flex-item">
-                <img src="../../assets/assets/img/references/conforta.jpg">
-            </div>
-
-        </div>
-        <p class="text-center mt-5">FORMATION</p>
-        <div class="separator-line"></div>
-        <div class="flex-container">
-            <div class="flex-item">
-                <img src="../../assets/assets/img/references/formation/al-barak-bank.jpg">
             </div>
             <div class="flex-item">
                 <img src="../../assets/assets/img/references/formation/banque-zitouna-logo.jpg">
             </div>
             <div class="flex-item">
-                <img src="../../assets/assets/img/references/formation/BNA-bank.png">
+                <img src="../../assets/assets/img/references/formation/Bourse de tunis.jpg">
             </div>
             <div class="flex-item">
-                <img src="../../assets/assets/img/references/formation/Bourse de tunis.jpg">
+                <img src="../../assets/assets/img/references/conforta.jpg">
             </div>
             <div class="flex-item">
                 <img src="../../assets/assets/img/references/formation/Ministère des Finances.png">
@@ -223,10 +225,12 @@
             <div class="flex-item">
                 <img src="../../assets/assets/img/references/formation/attijari bank.png">
             </div>
+            <div class="flex-item">
+                <img src="../../assets/assets/img/references/Babour-express.png">
+            </div>
         </div>
 
 
     </section>
-
-    <app-footer></app-footer>
+    <app-footer-afc></app-footer-afc>
 </body>

@@ -11,6 +11,8 @@ import { FooterComponent } from './footer/footer.component';
 import { AfcComponent } from './afc/afc.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
+import { FooterAfcComponent } from './footer-afc/footer-afc.component';
+import { CompetenceAfcComponent } from './afc/competence-afc/competence-afc.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { CommonModule } from '@angular/common';
     AboutUsComponent,
     ContactUsComponent,
     FooterComponent,
-    AfcComponent
+    AfcComponent,
+    FooterAfcComponent,
+    CompetenceAfcComponent
   ],
   imports: [
     BrowserModule,
