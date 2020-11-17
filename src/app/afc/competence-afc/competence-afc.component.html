@@ -35,9 +35,6 @@
             <mat-panel-title>
             En Finance Conventionnelle
             </mat-panel-title>
-            <mat-panel-description>
-            Currently I am {{panelOpenState ? 'open' : 'closed'}}
-            </mat-panel-description>
             </mat-expansion-panel-header>
             <p class="pre-wrap masthead-heading fa-check"><i class="fas fa-check mr-3"></i>
                 Finance de marché et connaissances des marchés</p>
@@ -63,12 +60,9 @@
         <mat-expansion-panel (opened)="panelOpenState = true"
         (closed)="panelOpenState = false">
         <mat-expansion-panel-header>
-        <mat-panel-title>
+        <mat-panel-title >
         En Finance Islamique
         </mat-panel-title>
-        <mat-panel-description>
-        Currently I am {{panelOpenState ? 'open' : 'closed'}}
-        </mat-panel-description>
         </mat-expansion-panel-header>
         <p class="pre-wrap masthead-heading"><i class="fas fa-check mr-3"></i>
             La finance et les banques en islam </p>
@@ -91,52 +85,46 @@
 <section class="page-section bg-secondary">
     <h2 class="text-center text-white text-uppercase ">CONSEIL EN FINANCE</h2>
     <div class="separator-line"></div>
-    <mat-expansion-panel (opened)="panelOpenState = true"
-    (closed)="panelOpenState = false">
-    <mat-expansion-panel-header>
-    <mat-panel-title>
-   CONSEIL EN FINANCE
-    </mat-panel-title>
-    </mat-expansion-panel-header>
+   
     <div class=" flex-container ">
-        <div class="element-style-competence flex-item" >
+        <div class="element-style element-style-competence flex-item" >
             <h2 class="mb-3" >Etudes technico-économiques</h2>
             <p>Incluant une identification des problématiques majeures, une analyse avec
                  les solutions envisageables, la réalisation des fiches d'action pour les 
                  solutions réalistes ainsi qu’une proposition de stratégie,
             </p>
         </div>
-        <div class="element-style-competence flex-item ">
+        <div class="element-style-competence element-style flex-item ">
             <h2 class="mb-3" >Restructuration d’entreprise </h2>
             <p> <b> La restructuration opérationnelle </b> (remaniement de l’organisation opérationnelle) .</p>
             <p> <b> La restructuration financière</b> (restructuration du passif de l’entreprise : capital
                  / dettes court termes et long termes / . . .).
                </p>
         </div>
-        <div class="element-style-competence flex-item ">
+        <div class="element-style element-style-competence flex-item ">
             <h2 class="mb-3" >Le pilotage de la performance </h2>
             <p>La définition de tableaux de bord, la réduction de délais de clôture, l’accompagnement
              au choix d’un outil  ou dans le cadre de croissance externe par l’intégration post-acquisition.
             </p>
         </div>
-        <div class="element-style-competence flex-item ">
+        <div class="element-style element-style-competence flex-item ">
             <h2 class="mb-3" >Les montages financiers</h2>
             <p>Accompagnement tout au long du processus selon une méthodologie rigoureuse.
             </p>
         </div>
-        <div class="element-style-competence flex-item ">
+        <div class="element-style element-style-competence flex-item ">
             <h2 class="mb-3" >La levée de fonds </h2>
             <p>La préparation des arguments solides pour rassurer les investisseurs,
                  tout en exploitant ses réseaux de contacts de contact local et international pour
                   la mise en relation entre les deux parties.
             </p>
         </div>
-        <div class="element-style-competence flex-item">
+        <div class="element-style element-style-competence flex-item">
             <h2 class="mb-3">L’accompagnement dans la recherche de partenaire </h2>
             <p>La réalisation d’une présentation attractive de l’entreprise, jusqu’au ciblage
                et la prise de contact avec les partenaires investisseurs.
             </p>
         </div>
     </div>
-    </mat-expansion-panel> 
+    
 </section>

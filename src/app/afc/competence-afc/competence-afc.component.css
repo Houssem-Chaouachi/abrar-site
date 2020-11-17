@@ -4,20 +4,15 @@ cursor: pointer;
 text-decoration: underline;
 }
 .element-style-competence {
-    height: 265px;
-    width: 350px;
-    border-radius: 8px;
-    border-style: solid;
+
     border-width: 4px 0 0 0;
     border-color: #c4c3c2;
-    box-shadow: 0 0 30px 0 rgba(0,0,0,.1);
     margin: 4% 2% 2% 1%;
-    padding: 20px;
-    display:table-row;
-    background-color: #ffffff;
-    text-align: center;
-    z-index: 1;
+    height: 265px;
+    width: 350px;
+  
 }
+      
 .element-style-competence p {
     text-align: justify;
     margin-top: 3px;

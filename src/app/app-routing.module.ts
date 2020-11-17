@@ -10,7 +10,7 @@ const routes: Routes = [
   // { path: '', component: CompaniesComponent},
   { path: 'about-us', component: AboutUsComponent},
   { path: 'contact-us', component: ContactUsComponent},
-  { path: 'Afc', component: AfcComponent},
+  { path: '', component: AfcComponent},
   { path: 'competenceAfc', component: CompetenceAfcComponent},
   { path: '**', redirectTo: ''}
 ];

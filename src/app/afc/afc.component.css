@@ -42,22 +42,13 @@ border-radius: 8px;
     display:inline-table;
     
 }
-.element-style {
-    height: 160px;
-    width: 280px;
-    border-radius: 8px;
-    border-style: solid;
+.element-style-expertise {
     border-width: 0 0 0 4px;
     border-color: #d3b574;
-    box-shadow: 0 0 30px 0 rgba(0,0,0,.1);
     margin: -4% 2% 2% 1%;
-    padding: 20px;
-    display:table-row;
-    background-color: #ffffff;
-    text-align: center;
-    z-index: 1;
+    height: 160px;
+    width: 280px;
 }
-
 .background-expertise {
     background:url('../../assets/assets/img/portfolio/financement.jpg');
     background-size: cover;

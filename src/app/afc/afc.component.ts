@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-import { ActivatedRoute } from '@angular/router';
+import * as AOS from 'aos';
+
 
 @Component({
   selector: 'app-afc',
@@ -10,10 +11,11 @@ import { ActivatedRoute } from '@angular/router';
 export class AfcComponent implements OnInit {
 submitted = false;
 contactForm: FormGroup;
-
+panelOpenState = false;
   constructor( private formBuilder: FormBuilder) { }
 
   ngOnInit(): void {
+    AOS.init();
 this.contactForm = this.formBuilder.group({
   nom: ['', [Validators.required]],
   email: ['', [Validators.required && Validators.email]],
