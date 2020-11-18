@@ -42,3 +42,34 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     text-align: center;
     z-index: 1;
 }
+.background-grey{
+    background-color:#fff
+}
+.background-white{
+    background-color:#fff
+}
+.box{
+    box-shadow:0 6px 20px 0 rgba(0, 0, 0, 0.19);               
+    border-radius: 5px;
+    padding: 20px;
+}
+.layer {
+    background-color: rgba(17, 156, 128, 0.5);
+    /* position: relative;
+    top: 0px;
+    bottom:0px;
+    left: 0px;
+    right: 0px; */
+}
+.layer-blue {
+    background-color: rgba(49, 132, 155, 0.9);
+    /* position: relative;
+    top: 0px;
+    bottom:0px;
+    left: 0px;
+    right: 0px; */
+}
+.padding-t{
+    padding-top: 18rem;
+    
+}

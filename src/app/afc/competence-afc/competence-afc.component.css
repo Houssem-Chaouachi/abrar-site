@@ -1,3 +1,16 @@
+.background {
+    background:url('../../../assets/assets/img/portfolio/compétencesAfc.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-top: 1%
+}
+.background-img-finance{
+    background:url('../../../assets/assets/img/portfolio/coworkers-team-brainstorming.jpg');
+    background-size:cover;
+    background-position:center;
+    background-attachment: fixed;
+    
+}
 .fa-check:hover {
 color: rgb(17, 156, 128);
 cursor: pointer;
@@ -19,4 +32,9 @@ text-decoration: underline;
 }
 .element-style-competence:hover{
     border-color:#d3b574
+};
+
+
+.p-inherit{
+    padding: inherit
 };

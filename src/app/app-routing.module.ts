@@ -10,9 +10,9 @@ const routes: Routes = [
   // { path: '', component: CompaniesComponent},
   { path: 'about-us', component: AboutUsComponent},
   { path: 'contact-us', component: ContactUsComponent},
-  { path: '', component: AfcComponent},
+  { path: '1', component: AfcComponent},
   { path: 'competenceAfc', component: CompetenceAfcComponent},
-  { path: '**', redirectTo: ''}
+  { path: '**', redirectTo: '1'}
 ];
 
 @NgModule({

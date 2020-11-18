@@ -16,7 +16,7 @@ panelOpenState = false;
 
   ngOnInit(): void {
     AOS.init();
-this.contactForm = this.formBuilder.group({
+    this.contactForm = this.formBuilder.group({
   nom: ['', [Validators.required]],
   email: ['', [Validators.required && Validators.email]],
   tel: ['', [Validators.required && Validators.minLength(8)]],
@@ -33,16 +33,16 @@ onsubmit(): void {
     return;
   }
 }
-toTop(){
+toTop(): void{
   document.getElementById('page-topAfc').scrollIntoView({behavior: 'smooth'});
 }
-toCompetence(){
+toCompetence(): void {
   document.getElementById('competenceAfc').scrollIntoView({ behavior: 'smooth'});
 }
-toExpertise(){
+toExpertise(): void {
   document.getElementById('expertiseAfc').scrollIntoView({block: 'center' , behavior: 'smooth'});
 }
-toContactAfc(){
+toContactAfc(): void {
   document.getElementById('contactAfc').scrollIntoView({block: 'center' , behavior: 'smooth'});
 }
   }
