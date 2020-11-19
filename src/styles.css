@@ -61,15 +61,3 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     left: 0px;
     right: 0px; */
 }
-.layer-blue {
-    background-color: rgba(49, 132, 155, 0.9);
-    /* position: relative;
-    top: 0px;
-    bottom:0px;
-    left: 0px;
-    right: 0px; */
-}
-.padding-t{
-    padding-top: 18rem;
-    
-}
