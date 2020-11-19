@@ -33,18 +33,18 @@ onsubmit(): void {
     return;
   }
 }
-toTop(): void{
-  document.getElementById('page-topAfc').scrollIntoView({behavior: 'smooth'});
-}
-toCompetence(): void {
-  document.getElementById('competenceAfc').scrollIntoView({ behavior: 'smooth'});
-}
-toExpertise(): void {
-  document.getElementById('expertiseAfc').scrollIntoView({block: 'center' , behavior: 'smooth'});
-}
-toContactAfc(): void {
-  document.getElementById('contactAfc').scrollIntoView({block: 'center' , behavior: 'smooth'});
-}
+// toTop(): void{
+//   document.getElementById('page-topAfc').scrollIntoView({behavior: 'smooth'});
+// }
+// toCompetence(): void {
+//   document.getElementById('competenceAfc').scrollIntoView({ behavior: 'smooth'});
+// }
+// toExpertise(): void {
+//   document.getElementById('expertiseAfc').scrollIntoView({block: 'center' , behavior: 'smooth'});
+// }
+// toContactAfc(): void {
+//   document.getElementById('contactAfc').scrollIntoView({block: 'center' , behavior: 'smooth'});
+// }
   }
 
 
