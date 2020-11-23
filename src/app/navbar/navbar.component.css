@@ -1,6 +1,7 @@
 .navbar-transparant{
     background-color: transparent!important;
-   -webkit-transition: all 0.6s ease-out!important;
+   /* -webkit-transition: all 0.6s ease-out!important; */
+   
 
 }
 .nav-bg-secondary{
