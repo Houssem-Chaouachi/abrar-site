@@ -4,11 +4,14 @@
 }
 
 .bg-AbrarCover {
-    background:url(../../assets/assets/img/portfolio/AbrarCover.jpg);
+    /* background:url(../../assets/assets/img/portfolio/AbrarCover.jpg); */
     padding: 0%;
     background-size: cover;
+    height: 45rem;
+    width: 100%;
 }
+
 .header-bg-color {
-    background-color:rgba(33, 126, 79, 0.2);
-    padding:17%
+    background-color:rgba(33, 126, 79, 0.781);
+    padding:0%
 }

@@ -15,8 +15,7 @@ export class AppComponent implements OnInit {
   title;
   @ViewChild(NavbarComponent) navbar: NavbarComponent;
   constructor(private renderer: Renderer2, private router: Router, @Inject(DOCUMENT,)
-
-  private document: any, private element: ElementRef, ) { }
+ private document: any, private element: ElementRef, ) { }
   ngOnInit() {
     var navbar: HTMLElement = this.element.nativeElement.children[0].children[0];
     this._router = this.router.events.filter(event => event instanceof NavigationEnd).subscribe(

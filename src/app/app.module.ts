@@ -15,6 +15,7 @@ import { FooterAfcComponent } from './footer-afc/footer-afc.component';
 import { CompetenceAfcComponent } from './afc/competence-afc/competence-afc.component';
 import {MatExpansionModule} from '@angular/material/expansion';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -36,6 +37,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     CommonModule,
     MatExpansionModule,
     BrowserAnimationsModule,
+    NgbModule,
+
   ],
   schemas: [ CUSTOM_ELEMENTS_SCHEMA ],
   providers: [],
