@@ -5,13 +5,34 @@
 
 .bg-AbrarCover {
     /* background:url(../../assets/assets/img/portfolio/AbrarCover.jpg); */
-    padding: 0%;
+padding: initial;
     background-size: cover;
     height: 45rem;
     width: 100%;
+    
 }
 
 .header-bg-color {
-    background-color:rgba(33, 126, 79, 0.781);
-    padding:0%
+    background-color:rgba(33, 126, 79, 0.4);
+   position: relative;
+   top: 49px;
+   right: 300px;
+   width: 1590px;
+   height: 71rem!important;
+  
+}
+
+.carousel-item-postion {
+    position: relative;
+    bottom: 300px;
+    z-index: 10;
+   
+}
+.carousel-item-postion h2 {
+    font-size: 3rem;
+
+}
+
+.caroussel-style {
+    z-index: 1;
 }

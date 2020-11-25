@@ -1,4 +1,4 @@
-<section class="container mt-5 " id="contact">
+<section class="container mt-5 mb-5" id="contact">
     <div class="row">
         <div class="col-md-6">
             <div class="text-center">
@@ -31,7 +31,7 @@
                     <div class="row">
                         <div class="col-md-12 mb-2">
                             <textarea name="message" formControlName="msg" placeholder="Votre message"
-                                class="form-control" [ngClass]="{'is-invalid': submitted && form.msg} "></textarea>
+                                class="form-control h-140" [ngClass]="{'is-invalid': submitted && form.msg} "></textarea>
                             <div *ngIf="submitted && form.msg.errors" class="invalid-feedback">
                                 Ce champ est requis
                             </div>
