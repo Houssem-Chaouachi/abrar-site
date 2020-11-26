@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { WebRequestService } from '../web-request.service';
 
 @Component({
   selector: 'app-contact-us',
@@ -9,7 +10,9 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 export class ContactUsComponent implements OnInit {
 contactUsForm: FormGroup;
 submitted = false;
-  constructor( private formBuilder: FormBuilder) { }
+successMsg:string;
+errorMsg: string;
+  constructor( private formBuilder: FormBuilder, private webReq: WebRequestService) { }
 
   ngOnInit(): void {
     this.contactUsForm = this.formBuilder.group({
@@ -28,5 +31,15 @@ onsubmit(): void {
   if (this.contactUsForm.invalid){
     return;
   }
+}
+sendMail(){
+  this.webReq.sendMail(this.contactUsForm.value).subscribe(data => {
+this.successMsg = 'Your message has been sent successfully';
+  },
+  err => {
+if (err.error.message){
+  this.errorMsg = err.error.message;
+}
+  });
 }
 }

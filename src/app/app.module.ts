@@ -16,6 +16,7 @@ import { CompetenceAfcComponent } from './afc/competence-afc/competence-afc.comp
 import {MatExpansionModule} from '@angular/material/expansion';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { HttpClientModule, HttpClient } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -38,6 +39,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     MatExpansionModule,
     BrowserAnimationsModule,
     NgbModule,
+    HttpClientModule,
 
   ],
   schemas: [ CUSTOM_ELEMENTS_SCHEMA ],

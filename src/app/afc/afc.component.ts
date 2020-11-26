@@ -15,13 +15,13 @@ panelOpenState = false;
   constructor( private formBuilder: FormBuilder) { }
 
   ngOnInit(): void {
-    AOS.init();
     this.contactForm = this.formBuilder.group({
-  nom: ['', [Validators.required]],
-  email: ['', [Validators.required && Validators.email]],
-  tel: ['', [Validators.required && Validators.minLength(8)]],
-  msg: ['', [Validators.required]]
-});
+      nom: ['', [Validators.required]],
+      email: ['', [Validators.required && Validators.email]],
+      tel: ['', [Validators.required && Validators.minLength(8)]],
+      msg: ['', [Validators.required]]
+    });
+    AOS.init();
 }
   get form() {
     return this.contactForm.controls;
