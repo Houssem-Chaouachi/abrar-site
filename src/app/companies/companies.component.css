@@ -11,7 +11,9 @@ padding: initial;
     width: 100%;
     
 }
-
+.font{
+    font:413 30px/28px Roboto, "Helvetica Neue", sans-serif;
+}
 .padding-1{
     padding: 40px!important;
 }
