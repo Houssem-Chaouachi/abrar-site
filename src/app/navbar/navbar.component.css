@@ -26,6 +26,7 @@ img{
 height: 56px;
 width: 110px;
 border-radius:5px;
+cursor: pointer;
 }
 .mat-item-typography{
     font: 400 19px/20px Roboto, "Helvetica Neue", sans-serif;

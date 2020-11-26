@@ -17,6 +17,7 @@ import {MatExpansionModule} from '@angular/material/expansion';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
+import { ReferencesComponent } from './references/references.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { HttpClientModule, HttpClient } from '@angular/common/http';
     FooterComponent,
     AfcComponent,
     FooterAfcComponent,
-    CompetenceAfcComponent
+    CompetenceAfcComponent,
+    ReferencesComponent
   ],
   imports: [
     BrowserModule,

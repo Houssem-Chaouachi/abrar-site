@@ -16,12 +16,12 @@ export class NavbarComponent implements OnInit {
     document.getElementById('page-top').scrollIntoView({behavior: 'smooth'});
   }
 toCompanies(): void {
-  document.getElementById('companies').scrollIntoView({block: 'start', behavior: 'smooth'});
+  document.getElementById('companies').scrollIntoView({block: 'center', behavior: 'smooth'});
 }
-toAboutUs(): void {
-  document.getElementById('about-us').scrollIntoView({block: 'start', behavior: 'smooth'});
+toReferences(): void {
+  document.getElementById('references').scrollIntoView({block: 'center', behavior: 'smooth'});
 }
 toContactUs(): void {
-  document.getElementById('contact-us').scrollIntoView({block: 'start', behavior: 'smooth' });
+  document.getElementById('contact').scrollIntoView({block: 'center', behavior: 'smooth' });
 }
 }
