@@ -1,10 +1,16 @@
-/* a {
-    color: #fff;
-} */
 .footer-text{
     color: #ababab;
     
-    
+}
+
+
+.footer-style{
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+}
+.footer-style:hover{
+    color: #ffffff;
 }
 .footer-icon{
     color: #067c7b;

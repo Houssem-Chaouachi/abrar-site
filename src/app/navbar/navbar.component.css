@@ -16,14 +16,14 @@
     
     }
     .nav-item-style:hover{
-        
+        color: #ffffff!important;
         border-radius: 1px;
         border-bottom: solid 1px;
         
     }
 img{
 
-height: 60px;
+height: 56px;
 width: 110px;
 border-radius:5px;
 }
