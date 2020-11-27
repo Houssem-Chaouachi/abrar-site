@@ -12,8 +12,6 @@ const routes: Routes = [
   { path: 'about-us', component: AboutUsComponent},
   { path: 'contact-us', component: ContactUsComponent},
   { path: 'afc', component: AfcComponent},
-  // { path: '', component: NavbarComponent},
-  // { path: 'Companies' , component : CompaniesComponent},
   { path: 'competenceAfc', component: CompetenceAfcComponent},
   { path: '**', redirectTo: ''}
 ];

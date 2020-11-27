@@ -12,7 +12,7 @@ export class AfcComponent implements OnInit {
 submitted = false;
 contactForm: FormGroup;
 panelOpenState = false;
-  constructor( private formBuilder: FormBuilder) { }
+  constructor( private formBuilder: FormBuilder) { AOS.init();}
 
   ngOnInit(): void {
     this.contactForm = this.formBuilder.group({
@@ -21,7 +21,6 @@ panelOpenState = false;
       tel: ['', [Validators.required && Validators.minLength(8)]],
       msg: ['', [Validators.required]]
     });
-    AOS.init();
 }
   get form() {
     return this.contactForm.controls;

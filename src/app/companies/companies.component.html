@@ -2,14 +2,15 @@
     <ngb-carousel class="caroussel-style">
         <ng-template ngbSlide class="carousel-item">
             <div class=" picsum-img-wrapper">
-                <img class="bg-AbrarCover" src="../../assets/assets/img/portfolio/AbrarCover.jpg"
+                <img class="bg-AbrarCover" src="../../assets/assets/img/portfolio/mkting-digital.jpg"
                     alt="Random first slide">
             </div>
             <div class=" carousel-caption">
                 <!-- <div class="header-bg-color"> -->
                 <div class="carousel-item-postion ">
-                    <h2>first slide label</h2>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    <h3 class="font">Une large gamme de services en développement, en communication et
+                         en stratégie marketing</h3>
+                   <a class="btn  bg-primary text-white" routerLink='competenceAfc' >Plus de details</a>
                 </div>
                 <!-- </div> -->
             </div>
@@ -22,8 +23,11 @@
             <div class="carousel-caption">
                 <!-- <div class="header-bg-color"> -->
                 <div class="carousel-item-postion ">
-                    <h2>Second slide label</h2>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    <h3 class="font">Soutenir les projets d’implantation en Tunisie et en Afrique
+                         du Nord de société étrangères</h3>
+                    <!-- <p>dans les différentes démarches: Juridiques et administratives, prospections commerciales, 
+                        mises en relations, recrutements, stratégie d’implantation, …etc.</p> -->
+                        <a class="btn  bg-primary text-white" routerLink='competenceAfc' >Plus de details</a>
                 </div>
                 <!-- </div> -->
             </div>
@@ -35,8 +39,22 @@
             </div>
             <div class="carousel-caption ">
                 <div class="carousel-item-postion ">
-                    <h3 class="font">Des programmes de formation dans les différents domaines de la finance et du management.</h3>
-                    <a class="btn  bg-primary text-white" href="http://abrarcom.com/">En savoir plus</a>
+                    <h3 class="font">Des programmes de formation dans les différents domaines de la finance et du management</h3>
+                    <a class="btn  bg-primary text-white" routerLink='competenceAfc' >Plus de details</a>
+                    <!-- </div> -->
+                </div>
+            </div>
+        </ng-template>
+        <ng-template ngbSlide class="carousel-item">
+            <div class=" picsum-img-wrapper">
+                <img class="bg-AbrarCover" src="../../assets/assets/img/portfolio/AbrarCover.jpg"
+                    alt="Random third slide">
+            </div>
+            <div class="carousel-caption ">
+                <div class="carousel-item-postion ">
+                    <h3 class="font">Accompagnement dans la réalisation des études stratégiques,  
+                        des plans d’affaires ainsi que dans la recherche de financement</h3>
+                    <a class="btn  bg-primary text-white" href="http://abrarcom.com/">Plus de details</a>
                     <!-- </div> -->
                 </div>
             </div>
@@ -44,6 +62,7 @@
     </ngb-carousel>
 
 </header>
+<app-about-us></app-about-us>
 <section class="page-section portfolio" id="companies">
     <div class="container">
         <!-- Companies Section Heading-->
