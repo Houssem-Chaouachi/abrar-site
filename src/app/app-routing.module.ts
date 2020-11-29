@@ -5,13 +5,15 @@ import { CompaniesComponent } from './companies/companies.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { AfcComponent } from './afc/afc.component';
 import { CompetenceAfcComponent } from './afc/competence-afc/competence-afc.component';
-import { NavbarComponent } from './navbar/navbar.component';
+
+import { AbcComponent } from './abc/abc.component';
 
 const routes: Routes = [
   { path: '', component: CompaniesComponent},
   { path: 'about-us', component: AboutUsComponent},
   { path: 'contact-us', component: ContactUsComponent},
   { path: 'afc', component: AfcComponent},
+  { path: 'abc', component: AbcComponent},
   { path: 'competenceAfc', component: CompetenceAfcComponent},
   { path: '**', redirectTo: ''}
 ];

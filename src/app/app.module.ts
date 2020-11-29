@@ -18,6 +18,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { ReferencesComponent } from './references/references.component';
+import { AbcComponent } from './abc/abc.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { ReferencesComponent } from './references/references.component';
     AfcComponent,
     FooterAfcComponent,
     CompetenceAfcComponent,
-    ReferencesComponent
+    ReferencesComponent,
+    AbcComponent
   ],
   imports: [
     BrowserModule,
