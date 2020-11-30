@@ -24,4 +24,7 @@ toReferences(): void {
 toContactUs(): void {
   document.getElementById('contact').scrollIntoView({block: 'center', behavior: 'smooth' });
 }
+scrollTop(){
+document.getElementById('top').scrollIntoView({behavior: 'smooth'});
+}
 }
