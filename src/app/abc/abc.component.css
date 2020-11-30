@@ -1,11 +1,14 @@
 .element-style-expertise {
     border-width: 0 0 0 4px;
     border-color: #104774;
-    margin: -4% 2% 2% 1%;
+    margin: -4% 2% 6% 1%;
     height: 160px;
     width: 280px;
 }
-
+.p-align{
+    font-size: large;
+    text-align: justify;
+}
 .bg-blue{
     background-color:#104774
 }
@@ -13,3 +16,11 @@
 .blue-color{
     color: #117391;
 }
+
+.separator-line-abc {
+    height: 2px;
+    width: 180px;
+    background-color:rgb(10, 86, 121);
+  
+    
+  }

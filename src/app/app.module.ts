@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
@@ -11,7 +10,6 @@ import { FooterComponent } from './footer/footer.component';
 import { AfcComponent } from './afc/afc.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
-import { FooterAfcComponent } from './footer-afc/footer-afc.component';
 import { CompetenceAfcComponent } from './afc/competence-afc/competence-afc.component';
 import {MatExpansionModule} from '@angular/material/expansion';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -29,7 +27,6 @@ import { AbcComponent } from './abc/abc.component';
     ContactUsComponent,
     FooterComponent,
     AfcComponent,
-    FooterAfcComponent,
     CompetenceAfcComponent,
     ReferencesComponent,
     AbcComponent
