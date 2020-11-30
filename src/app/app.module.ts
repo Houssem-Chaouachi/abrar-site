@@ -17,6 +17,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { ReferencesComponent } from './references/references.component';
 import { AbcComponent } from './abc/abc.component';
+import { AnimatedCounterComponent } from './animated-counter/animated-counter.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { AbcComponent } from './abc/abc.component';
     AfcComponent,
     CompetenceAfcComponent,
     ReferencesComponent,
-    AbcComponent
+    AbcComponent,
+    AnimatedCounterComponent
   ],
   imports: [
     BrowserModule,

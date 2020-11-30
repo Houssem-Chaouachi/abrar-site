@@ -22,7 +22,7 @@ toReferences(): void {
   document.getElementById('references').scrollIntoView({block: 'center', behavior: 'smooth'});
 }
 toContactUs(): void {
-  document.getElementById('contact').scrollIntoView({block: 'center', behavior: 'smooth' });
+  document.getElementById('contact' && 'ex').scrollIntoView({block: 'center', behavior: 'smooth' });
 }
 scrollTop(){
 document.getElementById('top').scrollIntoView({behavior: 'smooth'});
